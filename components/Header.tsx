@@ -1,5 +1,4 @@
-"use client"
-
+"use client";
 import Link from "next/link";
 import styled from "styled-components";
 
@@ -15,6 +14,7 @@ const StyledHeader = styled.header`
 
 const StyledH1 = styled.h1`
   padding: 1vh;
+  color: #088F8F;
 `;
 
 const StyledNav = styled.nav`
@@ -26,6 +26,8 @@ const StyledNav = styled.nav`
 const StyledLink = styled(Link)`
   padding: 2vh;
   text-decoration: none;
+  font-size: 3vh;
+  color: #088F8F;
   &:hover {
     text-decoration: underline;
   }
